@@ -1,0 +1,11 @@
+framework module no_screenshot {
+  umbrella header "no_screenshot-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module no_screenshot.Swift {
+  header "no_screenshot-Swift.h"
+  requires objc
+}
